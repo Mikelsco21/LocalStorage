@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/564x/14/d5/53/14d5536e8e7c7860b515e1ba9ae75629.jpg');
+    background-size: cover;
+    color: #3f14a3;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    color: #be010a;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 60px
+}
+
+.container {
+    background-color: rgba(200, 207, 161, 0.7);
+    padding: 100px;
+    border-radius: 15px;
+    max-width: 1200px;
+    width: 30%;
+    margin: 80px auto;;
+    box-shadow: 0 4px 15px rgba(30, 31, 27, 0.5);
+    text-align: start;
+    font-size: 1.5em;
+}
+
+#ticketDetails {
+    margin: 20px 0;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #1abc9c;
+    transform: scale(1.05);
+}
+
+#toti{
+    text-align: center;
+}
